@@ -7,7 +7,7 @@ const { DH_CHECK_P_NOT_SAFE_PRIME } = require("constants");
 
 
 const app = express();
-var PORT = process.env.PORT || 4023;
+var PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.urlencoded({ extended: true }));
